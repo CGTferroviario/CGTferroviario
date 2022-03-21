@@ -1,0 +1,28 @@
+<!doctype html>
+ 
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My PDF Viewer</title>
+    <link rel="stylesheet" href="visorPDF.css">
+  </head>
+  <body>
+  
+  <h1>PDF.js Previous/Next example</h1>
+
+  <div>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+  </div>
+
+  <canvas id="the-canvas"></canvas>
+
+  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+
+  <script src="visorPDF.js"></script>
+
+  </body>
+</html>
